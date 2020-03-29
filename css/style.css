@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    max-width: 1300px;
+    background: darkred;
+}
+
+#main-container {
+	display: table;
+	width: 111%;
+	height: 100%;
+}
+
+img {
+    width: 10rem;
+    margin-left: 70px;
+}
+
+hr {
+    width: 80%;
+}
+
+
+/*  -------- Header ----------- */
+#header .container {
+    display: flex;
+    position: sticky;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1100px;
+    padding: 0.8rem;
+}
+
+/* -------- Navigation ---------- */
+#navigation {
+   height: 32%; 
+}
+
+#navigation ul {
+    background: gray;
+    margin-left: 5rem;
+}
+#navigation ul li {
+    display: inline-block;
+    padding: 1.7rem 2rem;
+}
+#navigation ul li a {
+    text-decoration: none;
+    color: white;
+    vertical-align: initial;
+}
+
+#navigation .item {
+    display: flex;
+    flex-direction: nowrap;
+    color: white;
+}
+.item {
+    padding: 3rem;
+    margin-left: 80px;
+    background: #79b88b;
+}
+
+.naslov{
+    margin-top: 5px;
+}
+
+.item i{
+    font-size: 100px;
+    color: white;
+    margin-right: 4rem
+}
+
+/* ---------- Sidebar --------- */
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5rem;
+    margin-left: 5rem;
+    height: 100%;
+    flex: 2;
+}
+
+.sidebar {
+    background: #91b5c7;
+    width: 30%;
+    vertical-align: top;
+}
+
+.sidebar ul {
+    list-style: none;
+    font-size: 1.3rem;
+    padding-left: 50px;
+}
+
+.sidebar ul li {
+    margin-top: 1.8rem;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Content */
+#content {
+    background: #E9E89B;
+    width: 100%;
+}
+#content h3 {
+    padding-top: 1rem;
+    padding-left: 2.3rem;
+    color: blue;
+    text-decoration: none;
+}
+#content p {
+    width: 95%;
+    font-size: 10px;
+    padding-top: 1.2rem;
+    padding-left: 2.2rem;
+}
+#footer {
+    color: white;
+    padding-left: 5rem;
+    font-size: 16px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
