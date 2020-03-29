@@ -12,7 +12,7 @@ body, html {
 #main-container {
 	display: table;
 	width: 111%;
-	height: 100%;
+	height: 90%;
 }
 
 img {
@@ -41,17 +41,17 @@ hr {
 }
 
 #navigation ul {
+    
     background: gray;
     margin-left: 5rem;
 }
 #navigation ul li {
     display: inline-block;
-    padding: 1.7rem 2rem;
+    padding: 0.8rem 2rem;
 }
 #navigation ul li a {
     text-decoration: none;
     color: white;
-    vertical-align: initial;
 }
 
 #navigation .item {
@@ -80,7 +80,7 @@ hr {
 .flex-container {
     display: flex;
     flex-direction: row;
-    margin-top: 3.5rem;
+    margin-top: 2rem;
     margin-left: 5rem;
     height: 100%;
     flex: 2;
@@ -106,6 +106,7 @@ hr {
 ul li a {
     text-decoration: none;
     color: white;
+    padding-left: 0.9rem;
 }
 
 /* Content */
@@ -116,7 +117,7 @@ ul li a {
 #content h3 {
     padding-top: 1rem;
     padding-left: 2.3rem;
-    color: blue;
+    color: #999999;
     text-decoration: none;
 }
 #content p {
